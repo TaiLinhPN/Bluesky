@@ -1,0 +1,101 @@
+     #Menu {
+         width: 100%;
+         height: 100%;
+         background-color: black;
+     }
+     
+     #logo {
+         margin-top: 30px;
+         margin-left: 60px;
+         float: left;
+     }
+     
+     #Menu ul {
+         list-style-type: none;
+         text-align: right;
+     }
+     
+     ul.main li {
+         display: inline-block;
+         /* gap: 5px; */
+         width: 100px;
+         height: 100px;
+         line-height: 10px;
+         padding: 10px;
+         /* font-family: Times New Roman; */
+         margin: 10px 0px 0px 10px;
+         font-size: 80%;
+     }
+     
+     ul.main li a {
+         color: white;
+         text-decoration: none;
+         display: block;
+         padding: 60px 10px;
+     }
+     /* .main ul.submenu {
+         position: absolute;
+         background-color: black;
+         padding: 0px 10px;
+         list-style: none;
+         width: 300px;
+     }
+
+     .main ul.submenu a {
+         padding: 2px 5px;
+     }
+      */
+     /* ul.main li a.icon {
+         color: white;
+         font-size: 10px;
+         /* background-color: white;
+         display: inline-table;
+     } */
+     
+     .social-icon li {
+         list-style-type: none;
+     }
+     
+     .social-icon li a {
+         display: inline-block;
+         width: 30px;
+         height: 30px;
+         background: white;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin-right: 10px;
+         text-decoration: none;
+         border-radius: 7px;
+     }
+     
+     .social-icon li a:hover {
+         background: red;
+     }
+     
+     .social-icon li a .fa {
+         color: black;
+         font-size: 15px;
+     }
+     
+     .social-icon {
+         float: right;
+         margin-right: 60px;
+     }
+     
+     .social-icon {
+         margin-top: 0px;
+         display: flex;
+     }
+     
+     .social-icon.Button1:hover {
+         background-color: green;
+     }
+     
+     .social-icon.Button1 {
+         font-size: 10px;
+         color: white;
+         margin-right: 20px;
+         margin-top: 15px;
+         background-color: aqua;
+     }
